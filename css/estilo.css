@@ -1,0 +1,112 @@
+form{
+    margin-top: 30px;
+    text-align: center;
+}
+.img_buscar{
+    margin-top: 30px;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+.img_buscar h1{
+    color: brown;
+    margin-top: 150px;
+    font-size: 18px;
+}
+.img_buscar img{
+    width: 70px;
+}
+form input{
+    margin-bottom: 10px;
+}
+#input_nome{
+    width: 100%;
+    float: right;
+}
+#input_valor{
+    width: 100%;
+    float: right;
+}
+#select_cat{
+    width: 100%;
+    float: right;
+}
+#input_img{
+    width: 100%;
+    float: right;
+}
+.form input, form select{
+    margin-bottom: 10px;
+}
+form input[type="submit"]{
+    margin-top: 10px;
+    width: 100%;
+}
+form img{
+    width: 200%;
+    margin-bottom: 10px;
+}
+.card{
+    margin-top: 40px;
+    padding: 5px;
+}
+.textos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.card a{
+    margin: 3px;
+}
+.alert{
+    margin-top: 30px;
+}
+/* Menu */
+/* Remover margem do formulario */
+.formularioPesquisa{
+    margin: 0;
+}
+.formularioPesquisa input,
+.formularioPesquisa input[type="submit"]{
+    margin: 0;
+}
+.dropdown:hover .dropdown-menu{
+    display: block;
+    margin-top: 0;
+}
+footer{
+    margin-top: 500px;
+}
+
+
+/* CSS Anterior  */
+/* form input, form select{
+    margin-bottom: 10px;
+}
+form input[type="submit"]{
+    margin-top: 10px;
+}
+form img{
+    width: 200px;
+    margin-bottom: 40px;
+}
+.card{
+    margin-top: 40px;
+    padding: 5px;
+}
+.textos{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-weight: bold;
+}
+.card a{
+    margin-top: 5px;
+}
+.alert{
+    margin-top: 30px;
+}
+.formularioPesquisa{
+    margin: 0;
+} */

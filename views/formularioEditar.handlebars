@@ -1,0 +1,42 @@
+<main>
+
+    {{!-- Fomulario --}}
+
+    <div class="container">
+        <div class="row">
+            <div class="col-6 offset-3">
+                <form action="/editar" method="post" enctype="multipart/form-data">
+
+                    <input type="hidden" name="codigo" value="{{produto.codigo}}">
+                    <img src="../imagens/{{produto.imagem}}" >
+                    <input type="hidden" name="nomeImagem" value="{{produto.imagem}}">
+                    <input type="text" name="nome" value="{{produto.nome}}" class="form-control" placeholder="Nome do Produto">
+                     
+                    <input type="number" name="valor" value="{{produto.valor}}" class="form-control" placeholder="Valor do produto">
+                   <h5>Categoria atual - "{{produto.categoria}}" </h5>
+                   
+
+                   
+                      {{!-- menu de categoria --}}
+                   <select name="categoria" value="{{produto.categoria}}"  id="select_cat" class="form-control">
+                     <option id="select_cat" value=""> Selecione a categoria NOVA desejada</option>
+                    <option id="select_cat" value="alimenticio">Alimentício</option>
+                    <option id="select_cat" value="eletronico">Eletrônico</option>
+                    <option id="select_cat" value="vestuario">vestuário</option>
+                    </select>
+                 
+
+                    <input type="file" name="imagem" value="produto.imagem" class="form-control">
+                    <input type="submit" class="btn btn-primary" value="Alterar">
+                    <a href="/" class="btn btn-secondary">Cancelar</a>
+
+                </form>
+
+            </div>
+
+
+        </div>
+
+    </div>
+   
+</main>
